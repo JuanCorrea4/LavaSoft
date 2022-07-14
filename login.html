@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LavaSoft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="titulo">
+                <h1><a href="./index.html">LAVA SOFT</a></h1>
+            </div>
+        </div>
+        <div class="log">
+            <a href="./register.html" id="regisA"><button onclick="openRegister()" class="buttonReg">Crea tu cuenta</button></a>
+            
+            <a href="./login.html" id="loginA"><button onclick="openLogIn()" class="buttonLog">Inicia sesión</button></a>
+        </div>
+    </div>
+<div class="container">
+    <div class="modelLogIn" id="modelLogIn" style="display: flex; flex-direction: column;">
+        <p>Inicia sesion</p>
+        <form action="" id="logIn">
+            <input type="text" name="correo" id="email" placeholder="Correo electronico" required>
+            <input type="password" name="contraseña" id="password" placeholder="Contraseña" required>
+            <input type="text" name="numPlaca" placeholder="Ingrese la placa de su vehiculo" required>
+            <input type="submit" name="enviar" value="Inicia sesion" id="envioDatos" >
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <div class="contacto">
+            <a href="https://wa.me/+573209269012/?text=Hola,%20quiero%20lavar%20mi%20vehiculo." target="_blank">Contactanos </a>  
+    </div>
+    <div class="fac">
+        <a href="">Preguntas frecuentes</a>
+    </div>
+    <div class="sac">
+        <a href="">Servicio al cliente</a>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
